@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFB6C1; /* Fondo rosa pastel */
+}
+
+header {
+    background-color: #007BFF; /* Azul */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.header-clouds {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    opacity: 0.5;
+}
+
+main {
+    padding: 20px;
+}
+
+.registration {
+    margin-bottom: 20px;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration label {
+    margin-bottom: 5px;
+}
+
+.registration input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.registration button {
+    padding: 10px;
+    background-color: #007BFF; /* Azul */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    color: black; /* Texto negro */
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.image-gallery img {
+    width: 150px; /* Ajusta el tamaño según necesites */
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+footer {
+    background-color: #6c757d; /* Gris */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

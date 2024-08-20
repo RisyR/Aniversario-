@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorpresa de Aniversario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>¡Feliz Aniversario, Vanessa!</h1>
+        <img src="nubes.png" alt="Nubes" class="header-clouds">
+    </header>
+
+    <main>
+        <section class="registration">
+            <h2>Regístrate para la Sorpresa</h2>
+            <form id="registration-form">
+                <label for="phone">Número de teléfono:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <button type="submit">Registrarse</button>
+            </form>
+        </section>
+
+        <section class="content">
+            <h3>Una Sorpresa Para Ti</h3>
+            <p>Hoy celebramos nuestro amor. ¡No puedo esperar para verte!</p>
+
+            <div class="image-gallery">
+                <img src="imagen1.jpg" alt="Recuerdo 1" />
+                <img src="imagen2.jpg" alt="Recuerdo 2" />
+                <img src="imagen3.jpg" alt="Recuerdo 3" />
+            </div>
+
+            <h3>Disfruta de la Música de Morat</h3>
+            <audio controls>
+                <source src="musica.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+
+            <h3>Video Especial</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tu_video_id" frameborder="0" allowfullscreen></iframe>
+
+            <h3>Juego Interactivo</h3>
+            <button onclick="startGame()">Jugar</button>
+            <div id="game" style="display:none;">
+                <p>¡Encuentra el corazón escondido!</p>
+                <!-- Aquí puedes agregar tu lógica de juego -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function startGame() {
+            document.getElementById("game").style.display = "block";
+            alert("¡Buena suerte!");
+        }
+    </script>
+
+</body>
+</html>
